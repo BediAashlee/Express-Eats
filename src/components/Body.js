@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import RestaurantCard from "./RestaurantCard";
 import { Link } from "react-router-dom";
-
-const filterData = () => {};
+import { filterData } from "../utils/helper";
 
 const Body = () => {
   const [searchText, setSearchText] = useState("");
